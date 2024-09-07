@@ -1,0 +1,43 @@
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+div{
+ display: flex;
+ height:20rem ;
+ background-color: bisque;
+ width: 20rem;
+ box-shadow: 0 0 5px  black(0,0,0,0,46);
+ border-radius: 5px;
+ overflow: hidden;
+ justify-content: center;
+flex-direction: column;
+align-items: center;
+
+} button{
+
+color:white;
+background-color:red;
+border: none;
+border-radius: 3px;
+height: 30px;
+margin: 50px;
+margin-top: 40px;
+padding: 5px;
+transition: 0.30s;
+
+}button:hover{
+ cursor:pointer;
+ background-color:crimson;
+ 
+}
+button:active{
+ opacity: 0.5;
+}
+img{
+ height: 10rem;
+ width: 10rem;
+ border-radius: 50%;
+}
